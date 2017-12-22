@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D1C5ABC1FC6AB7500DA6F8A /* RCTPolyv.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1C5ABB1FC6AB7500DA6F8A /* RCTPolyv.m */; };
+		8D1C5ABD1FC6AB7500DA6F8A /* RCTPolyv.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D1C5ABA1FC6AB7500DA6F8A /* RCTPolyv.h */; };
+		8D1C5B0E1FC6AE5400DA6F8A /* RCTPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1C5B0D1FC6AE5400DA6F8A /* RCTPlayer.m */; };
+		8D2F6E9D1FCBF1F500C2FB3F /* RCTPlayer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D1C5B0C1FC6AE5400DA6F8A /* RCTPlayer.h */; };
+		8D2F6E9E1FCBF1F900C2FB3F /* RCTPlayerManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8D788D211FC6B4970009E36B /* RCTPlayerManager.h */; };
+		8D2F6E9F1FCBF1FC00C2FB3F /* RCTLive.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DAC27181FC90A4C00200732 /* RCTLive.h */; };
+		8D2F6EA01FCBF20000C2FB3F /* RCTLiveManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8DAC27561FC914F800200732 /* RCTLiveManager.h */; };
+		8D788D231FC6B4970009E36B /* RCTPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D788D221FC6B4970009E36B /* RCTPlayerManager.m */; };
+		8DAC26D31FC6E9AC00200732 /* AlicloudHttpDNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAC26D21FC6E9AC00200732 /* AlicloudHttpDNS.framework */; };
+		8DAC26D51FC6E9AE00200732 /* AlicloudUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAC26D41FC6E9AE00200732 /* AlicloudUtils.framework */; };
+		8DAC26D71FC6E9AF00200732 /* UTDID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAC26D61FC6E9AF00200732 /* UTDID.framework */; };
+		8DAC271A1FC90A4C00200732 /* RCTLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAC27191FC90A4C00200732 /* RCTLive.m */; };
+		8DAC271E1FC9108A00200732 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAC271D1FC9108A00200732 /* IJKMediaFramework.framework */; };
+		8DAC27221FC9109300200732 /* PLVLiveAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAC27211FC9109300200732 /* PLVLiveAPI.framework */; };
+		8DAC27581FC914F800200732 /* RCTLiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAC27571FC914F800200732 /* RCTLiveManager.m */; };
+		8DB4C1B51FCAC6B300FD7242 /* PLVChatManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB4C1B11FCAC47F00FD7242 /* PLVChatManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D1C5AB51FC6AB7500DA6F8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8D2F6EA01FCBF20000C2FB3F /* RCTLiveManager.h in CopyFiles */,
+				8D2F6E9F1FCBF1FC00C2FB3F /* RCTLive.h in CopyFiles */,
+				8D2F6E9E1FCBF1F900C2FB3F /* RCTPlayerManager.h in CopyFiles */,
+				8D2F6E9D1FCBF1F500C2FB3F /* RCTPlayer.h in CopyFiles */,
+				8D1C5ABD1FC6AB7500DA6F8A /* RCTPolyv.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8D1C5AB71FC6AB7500DA6F8A /* libRCTPolyv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTPolyv.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1C5ABA1FC6AB7500DA6F8A /* RCTPolyv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTPolyv.h; sourceTree = "<group>"; };
+		8D1C5ABB1FC6AB7500DA6F8A /* RCTPolyv.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTPolyv.m; sourceTree = "<group>"; };
+		8D1C5B0C1FC6AE5400DA6F8A /* RCTPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTPlayer.h; sourceTree = "<group>"; };
+		8D1C5B0D1FC6AE5400DA6F8A /* RCTPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTPlayer.m; sourceTree = "<group>"; };
+		8D788D211FC6B4970009E36B /* RCTPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTPlayerManager.h; sourceTree = "<group>"; };
+		8D788D221FC6B4970009E36B /* RCTPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTPlayerManager.m; sourceTree = "<group>"; };
+		8DAC26CC1FC6E7AF00200732 /* libpolyvSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libpolyvSDK; sourceTree = "<group>"; };
+		8DAC26D21FC6E9AC00200732 /* AlicloudHttpDNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudHttpDNS.framework; path = RCTPolyv/AdditionalLibrary/AlicloudHttpDNS.framework; sourceTree = "<group>"; };
+		8DAC26D41FC6E9AE00200732 /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudUtils.framework; path = RCTPolyv/AdditionalLibrary/AlicloudUtils.framework; sourceTree = "<group>"; };
+		8DAC26D61FC6E9AF00200732 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = RCTPolyv/AdditionalLibrary/UTDID.framework; sourceTree = "<group>"; };
+		8DAC27181FC90A4C00200732 /* RCTLive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTLive.h; sourceTree = "<group>"; };
+		8DAC27191FC90A4C00200732 /* RCTLive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTLive.m; sourceTree = "<group>"; };
+		8DAC271D1FC9108A00200732 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = RCTPolyv/AdditionalLibrary/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		8DAC27211FC9109300200732 /* PLVLiveAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PLVLiveAPI.framework; path = RCTPolyv/AdditionalLibrary/PLVLiveAPI.framework; sourceTree = "<group>"; };
+		8DAC27561FC914F800200732 /* RCTLiveManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTLiveManager.h; sourceTree = "<group>"; };
+		8DAC27571FC914F800200732 /* RCTLiveManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTLiveManager.m; sourceTree = "<group>"; };
+		8DB4C1B11FCAC47F00FD7242 /* PLVChatManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PLVChatManager.framework; path = RCTPolyv/AdditionalLibrary/PLVChatManager.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D1C5AB41FC6AB7500DA6F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DAC26D31FC6E9AC00200732 /* AlicloudHttpDNS.framework in Frameworks */,
+				8DAC26D51FC6E9AE00200732 /* AlicloudUtils.framework in Frameworks */,
+				8DAC26D71FC6E9AF00200732 /* UTDID.framework in Frameworks */,
+				8DAC271E1FC9108A00200732 /* IJKMediaFramework.framework in Frameworks */,
+				8DAC27221FC9109300200732 /* PLVLiveAPI.framework in Frameworks */,
+				8DB4C1B51FCAC6B300FD7242 /* PLVChatManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D1C5AAE1FC6AB7500DA6F8A = {
+			isa = PBXGroup;
+			children = (
+				8D1C5AB91FC6AB7500DA6F8A /* RCTPolyv */,
+				8D1C5AB81FC6AB7500DA6F8A /* Products */,
+				8DAC26CA1FC6E66D00200732 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D1C5AB81FC6AB7500DA6F8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1C5AB71FC6AB7500DA6F8A /* libRCTPolyv.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D1C5AB91FC6AB7500DA6F8A /* RCTPolyv */ = {
+			isa = PBXGroup;
+			children = (
+				8DAC26CC1FC6E7AF00200732 /* libpolyvSDK */,
+				8D1C5ABA1FC6AB7500DA6F8A /* RCTPolyv.h */,
+				8D1C5ABB1FC6AB7500DA6F8A /* RCTPolyv.m */,
+				8D1C5B0C1FC6AE5400DA6F8A /* RCTPlayer.h */,
+				8D1C5B0D1FC6AE5400DA6F8A /* RCTPlayer.m */,
+				8D788D211FC6B4970009E36B /* RCTPlayerManager.h */,
+				8D788D221FC6B4970009E36B /* RCTPlayerManager.m */,
+				8DAC27181FC90A4C00200732 /* RCTLive.h */,
+				8DAC27191FC90A4C00200732 /* RCTLive.m */,
+				8DAC27561FC914F800200732 /* RCTLiveManager.h */,
+				8DAC27571FC914F800200732 /* RCTLiveManager.m */,
+			);
+			path = RCTPolyv;
+			sourceTree = "<group>";
+		};
+		8DAC26CA1FC6E66D00200732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB4C1B11FCAC47F00FD7242 /* PLVChatManager.framework */,
+				8DAC27211FC9109300200732 /* PLVLiveAPI.framework */,
+				8DAC271D1FC9108A00200732 /* IJKMediaFramework.framework */,
+				8DAC26D61FC6E9AF00200732 /* UTDID.framework */,
+				8DAC26D41FC6E9AE00200732 /* AlicloudUtils.framework */,
+				8DAC26D21FC6E9AC00200732 /* AlicloudHttpDNS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1C5AB61FC6AB7500DA6F8A /* RCTPolyv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D1C5AC01FC6AB7500DA6F8A /* Build configuration list for PBXNativeTarget "RCTPolyv" */;
+			buildPhases = (
+				8D1C5AB31FC6AB7500DA6F8A /* Sources */,
+				8D1C5AB41FC6AB7500DA6F8A /* Frameworks */,
+				8D1C5AB51FC6AB7500DA6F8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTPolyv;
+			productName = RCTPolyv;
+			productReference = 8D1C5AB71FC6AB7500DA6F8A /* libRCTPolyv.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D1C5AAF1FC6AB7500DA6F8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Fei Mo";
+				TargetAttributes = {
+					8D1C5AB61FC6AB7500DA6F8A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8D1C5AB21FC6AB7500DA6F8A /* Build configuration list for PBXProject "RCTPolyv" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D1C5AAE1FC6AB7500DA6F8A;
+			productRefGroup = 8D1C5AB81FC6AB7500DA6F8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1C5AB61FC6AB7500DA6F8A /* RCTPolyv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D1C5AB31FC6AB7500DA6F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1C5ABC1FC6AB7500DA6F8A /* RCTPolyv.m in Sources */,
+				8D1C5B0E1FC6AE5400DA6F8A /* RCTPlayer.m in Sources */,
+				8D788D231FC6B4970009E36B /* RCTPlayerManager.m in Sources */,
+				8DAC271A1FC90A4C00200732 /* RCTLive.m in Sources */,
+				8DAC27581FC914F800200732 /* RCTLiveManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8D1C5ABE1FC6AB7500DA6F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D1C5ABF1FC6AB7500DA6F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D1C5AC11FC6AB7500DA6F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RCTPolyv/AdditionalLibrary",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTPolyv/libpolyvSDK",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTPolyv",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D1C5AC21FC6AB7500DA6F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/RCTPolyv/AdditionalLibrary",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTPolyv/libpolyvSDK",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RCTPolyv",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D1C5AB21FC6AB7500DA6F8A /* Build configuration list for PBXProject "RCTPolyv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1C5ABE1FC6AB7500DA6F8A /* Debug */,
+				8D1C5ABF1FC6AB7500DA6F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D1C5AC01FC6AB7500DA6F8A /* Build configuration list for PBXNativeTarget "RCTPolyv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1C5AC11FC6AB7500DA6F8A /* Debug */,
+				8D1C5AC21FC6AB7500DA6F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D1C5AAF1FC6AB7500DA6F8A /* Project object */;
+}
